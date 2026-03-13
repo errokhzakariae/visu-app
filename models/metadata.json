@@ -1,0 +1,38 @@
+{
+    "date": "2026-03-12 09:36:31",
+    "features": [
+        "Dependents",
+        "Education",
+        "ApplicantIncome",
+        "CoapplicantIncome",
+        "LoanAmount",
+        "Loan_Amount_Term",
+        "Credit_History",
+        "TotalIncome",
+        "LoanAmountToIncome",
+        "EMI",
+        "EMIToIncome",
+        "Log_LoanAmount",
+        "Log_TotalIncome",
+        "Has_Coapplicant",
+        "Area_Semiurban",
+        "Area_Urban",
+        "Gender_Male",
+        "Married_Yes",
+        "SelfEmployed_Yes"
+    ],
+    "logistic_regression_performance": {
+        "accuracy": 0.8536585365853658,
+        "precision": 0.8316831683168316,
+        "recall": 0.9882352941176471,
+        "f1_score": 0.9032258064516129,
+        "roc_auc": 0.8631578947368422
+    },
+    "random_forest_performance": {
+        "accuracy": 0.8699186991869918,
+        "precision": 0.8709677419354839,
+        "recall": 0.9529411764705882,
+        "f1_score": 0.9101123595505618,
+        "roc_auc": 0.8529411764705882
+    }
+}
